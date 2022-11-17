@@ -13,8 +13,8 @@ function Footer() {
             Instagram
           </a>
         </p>
-        <p>Coming Soon</p>
-        <p>Coming Soon</p>
+        <p>Facebook (Coming Soon)</p>
+        <p>Linkedin (Coming Soon)</p>
       </div>
       <div className="footer-navigation">
         <p className="footer-header">NAVIGATION</p>

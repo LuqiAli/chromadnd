@@ -155,10 +155,10 @@ a:hover {
   font-size: 30px;
   text-transform: capitalize;
   border: 3px solid #50433A;
-  background-color: #F3A71290;
+  background-color: #F3A712;
   width: 250px;
   height: 85px;
-  color: #50433A;
+  color: #4B423C;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,8 +169,8 @@ a:hover {
 
 .hero-button:hover {
   box-shadow: 0 0 20px #121212;
-  background-color: #F3A712;
-  color: #4B423C;
+  background-color: #F3A71290;
+  color: #50433A;
 }
 
 .page {

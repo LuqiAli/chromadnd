@@ -13,12 +13,12 @@ function About() {
         <h1 className="about-header">About Us</h1>
         <div className="about-header-lb"></div>
         <p className="about-text about-text-main">
-          Here at Chroma Design & Development Limited we strive to produce the
-          highest level of work for our clients. Every project we recieve is met
-          with decisive thinking and diverse abilities and talents ranging from
+          Here at Chroma Design & Development Limited, we strive to produce the
+          highest level of work for our clients. Every project we receive is met
+          with decisive thinking, diverse abilities and talents, ranging from
           one end of design to the other end of development. We believe every
-          aspect of your brand should convey your message by partnering with our
-          clients with the goal of communicating what your business stands for.
+          aspect of your brand should convey your message and communicate what
+          your business stands for.
         </p>
         <p className="about-text about-text-header">
           We offer a great range of services, such as:
