@@ -886,7 +886,7 @@ textarea {
       font-size: 50px;
       margin-top: 50px;
       width: 90%;
-      margin-bottom: px;
+      /* margin-bottom: px; */
     }
   
     .hero-button {
@@ -901,6 +901,14 @@ textarea {
     }
   
   .footer > div {
-    margin-inline: 25px;
+    margin-inline: 5vw;
+  }
+
+  .footer-row {
+    font-size: 18px;
+  }
+
+  .footer-header {
+    font-size: 14px;
   }
 }

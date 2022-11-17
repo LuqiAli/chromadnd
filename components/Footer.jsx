@@ -3,9 +3,9 @@ import Link from "next/link";
 function Footer() {
   return (
     <div className="footer">
-      <div className="footer-socials">
+      <div className="footer-socials footer-col">
         <p className="footer-socials footer-header">OUR SOCIALS</p>
-        <p>
+        <p className="footer-row">
           <a
             className="footer-item"
             href="https://www.instagram.com/chroma_dnd/"
@@ -13,22 +13,22 @@ function Footer() {
             Instagram
           </a>
         </p>
-        <p>Facebook (Coming Soon)</p>
-        <p>Linkedin (Coming Soon)</p>
+        <p className="footer-row">(Coming Soon)</p>
+        <p className="footer-row">(Coming Soon)</p>
       </div>
-      <div className="footer-navigation">
+      <div className="footer-navigation footer-col">
         <p className="footer-header">NAVIGATION</p>
-        <p>
+        <p className="footer-row">
           <Link className="footer-item" href="/">
             Home
           </Link>
         </p>
-        <p>
+        <p className="footer-row">
           <Link className="footer-item" href="/about">
             About Us
           </Link>
         </p>
-        <p>
+        <p className="footer-row">
           <Link className="footer-item" href="/contact">
             Contact Us
           </Link>
