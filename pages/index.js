@@ -5,8 +5,6 @@ import ProjectCard from "../components/ProjectCard";
 import Hero from "../components/Hero";
 
 function HomePage() {
-  // document.body.classList.remove("show");
-
   return (
     <Fragment>
       <Navbar selected="Home" />
