@@ -3,8 +3,6 @@ import Navbar from "../components/Navbar";
 import Link from "next/link";
 
 function About() {
-  //   document.body.classList.remove("show");
-
   return (
     <div>
       <Navbar selected="About Us" />
