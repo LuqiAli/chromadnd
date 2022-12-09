@@ -21,6 +21,7 @@ export default function Document() {
           src="https://kit.fontawesome.com/05f44be597.js"
           crossorigin="anonymous"
         ></script>
+        <title>Chroma D&D</title>
       </Head>
       <body>
         <Main />
