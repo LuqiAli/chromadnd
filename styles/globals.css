@@ -429,6 +429,7 @@ body.show .dropdown {
   margin: 0;
   margin-block: 75px;
   padding: 0;
+  font-size: 50px;
 }
 
 .page-container {
@@ -597,6 +598,11 @@ textarea {
 
 .contact-form-container {
   margin-bottom: 100px;
+  display: flex;
+}
+
+.contact-item {
+  margin-right: auto;
 }
 
 .contact-email {
@@ -713,6 +719,12 @@ textarea {
   .hero-content {
     top: 350px;
   }
+
+  .contact-form-container {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 992px) { 
@@ -788,6 +800,10 @@ textarea {
     .hero-content {
       top: 350px;
     }
+
+  .page-container {
+    width: 90%;
+  }
 }
 
 @media (max-width: 768px) { 

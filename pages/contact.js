@@ -10,7 +10,7 @@ function Contact() {
         <h1 className="about-header">Get in touch!</h1>
         <div className="about-header-lb"></div>
         <div className="contact-form-container">
-          <div className="contact-item">
+          <div className="contact-item contact-email-container">
             <h4 className="email-header">Contact us via email</h4>
             <div className="contact-email">
               <p>c</p>
@@ -41,6 +41,19 @@ function Contact() {
               className="contact-email"
             >
               @chroma_dnd
+            </a>
+          </div>
+          <div className="contact-item">
+            <h4 className="email-header">Where to find us</h4>
+            <a
+              href="https://instagram.com/chroma_dnd"
+              className="contact-email"
+            >
+              39 Willowtree Way
+              <br />
+              CR7 8FD
+              <br />
+              London, England
             </a>
           </div>
         </div>
